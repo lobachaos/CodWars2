@@ -1,11 +1,8 @@
-import katas.Bonuses;
-import katas.Troll;
-
-import java.util.Arrays;
+import katas.Sequence;
 
 public class Start {
     public static void main(String[] args) {
-        System.out.println(Troll.disemvowel("This website is for losers LOL!"));
+        System.out.println(Sequence.getScore(3));
     }
 
 }
