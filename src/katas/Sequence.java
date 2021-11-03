@@ -24,4 +24,7 @@ public class Sequence {
         }
         return array[(int) (n-1)];
     }
+    public static long getScoreRefactor(long n) {
+        return 25 * n * (n+1);
+    }
 }
