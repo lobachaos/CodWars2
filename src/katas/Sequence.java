@@ -13,7 +13,7 @@ Have a look at the following numbers.
  */
 
 public class Sequence {
-    public static long getScore(long n) {
+    public static long getScoreImp(long n) {
         long[] array = new long[(int) n];
         int pa = (int) ((n*(n+1))/2);
         array[0] = 50;
@@ -27,4 +27,4 @@ public class Sequence {
     public static long getScoreRefactor(long n) {
         return 25 * n * (n+1);
     }
-}
+    }
